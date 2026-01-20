@@ -1,0 +1,30 @@
+# Core PyTorch with CUDA support (adjust CUDA version as needed)
+# For CUDA 11.8: torch==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1: torch==2.1.0+cu121 --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+transformers>=4.36.0
+accelerate>=0.25.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+trl>=0.7.0
+datasets>=2.16.0
+tokenizers>=0.15.0
+
+# Experiment Tracking
+wandb>=0.16.0
+
+# Optional: Gradio for inference UI
+gradio>=4.0.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+sentencepiece>=0.1.99
+protobuf>=4.21.0
+
+# For dataset handling
+huggingface-hub>=0.19.0
+
+# Logging and utilities
+tqdm>=4.66.0
+
